@@ -1,0 +1,18 @@
+<header>
+  <nav class="app-nav">
+    <span class="app-logo"> <a href="/">Test App</a></span>
+    <ul class="nav-links">
+      <li class="nav-link-item"><a href="/">Home</a></li>
+      <li class="nav-link-item"><a href="/about">About</a></li>
+      <li class="nav-link-item"><a href="/contact">Contact</a></li>
+    </ul>
+    <span class="nav-dropdown" data-controller="nav-dropdown">
+      <span class="dropdown-button" data-action="click->nav-dropdown#toggle">SS</span>
+      <div class="dropdown-content" data-nav-dropdown-target="menu">
+        <a href="/profile">Profile</a>
+        <a href="/settings">Settings</a>
+        <a href="/logout">Logout</a>`
+      </div>
+    </span>
+  </nav>
+</header>
